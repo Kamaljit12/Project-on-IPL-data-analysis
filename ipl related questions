@@ -1,5 +1,7 @@
 # i heve imported ipl dataset and all the questins is analysied from this particular data
 
+# use your apth directory to import this data: copy paste code won't work proprerly
+
 $ ipl = pd.read_csv('C:\\Users\\KAMAL JIT\\Desktop\\campusx\\drive-download\\datasets-session-17\\ipl-matches.csv', index_col= False )
 $ ipl.head(3)
 
