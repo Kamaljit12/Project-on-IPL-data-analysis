@@ -1,1 +1,8 @@
+# i heve imported ipl dataset and all the questins is analysied from this particular data
 
+$ ipl = pd.read_csv('C:\\Users\\KAMAL JIT\\Desktop\\campusx\\drive-download\\datasets-session-17\\ipl-matches.csv', index_col= False )
+$ ipl.head(3)
+
+#Question: find the player name who has became player of the match more than to all
+# solution
+$ ipl[~ipl['MatchNumber'].str.isdigit()]['Player_of_Match'].value_counts().head(3)
